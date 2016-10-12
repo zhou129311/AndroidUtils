@@ -1,10 +1,12 @@
 package com.broadsense.androidutils;
 
+import android.content.Context;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.style.ClickableSpan;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.UnderlineSpan;
+import android.util.TypedValue;
 import android.view.View;
 
 import java.util.regex.Matcher;
@@ -72,6 +74,19 @@ public class StringUtils {
         // px/dip = density;
         float density = getResource().getDisplayMetrics().density;
         return (int) (px / density + 0.5f);
+    }*/
+
+    /**
+     * dp2px
+     *
+     * @param context
+     * @param dp
+     * @return
+     */
+    /*public static int dp2px(Context context, float dp) {
+        return Math.round(TypedValue.applyDimension(
+                TypedValue.COMPLEX_UNIT_DIP, dp, context.getResources()
+                        .getDisplayMetrics()));
     }*/
 
 
