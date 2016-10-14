@@ -1,7 +1,6 @@
 /*[BIRD_INTELLIGENT_VEHICLE] wushiyong 20160726 begin*/
 package com.bird.IntelligentVehicle;
 
-import android.provider.Settings;
 import android.content.Context;
 /*
 import android.os.Handler;
@@ -38,6 +37,11 @@ public class BirdIntelligentVehicle {
      * 往uart口写数据
      */
 	public void BirdWriteDataToUartPort(int port, String data) {
+
+	}
+
+	public void BirdWriteDataToUartPort(int port, byte [] data) {
+
 	}
 	
     /*
